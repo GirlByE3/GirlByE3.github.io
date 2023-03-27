@@ -1,0 +1,26 @@
+#div_1{
+    border: 5px solid red;
+}
+#div_2{
+    border: 10px dashed orange;
+    padding: 24px;
+}
+#div_3 {
+    border: 24px dotted yellow;
+    padding: 36px;
+    margin: 60px;
+}
+#div_4 {
+    border: 2px solid green;
+    padding: 8px;
+    margin: 24px;
+}
+#div_5 {
+    background-color: #2d33e8;
+    color: wheat;
+}
+#div_6 {
+    border: 5px solid indigo;
+    padding-left: 48px;
+    margin: 50px 12px;
+}
