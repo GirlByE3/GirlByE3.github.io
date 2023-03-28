@@ -1,0 +1,33 @@
+.card {
+    margin: 24px;
+    border: 3px solid hotpink;
+    padding: 16px;
+    /* 
+        offer-x offset-y
+        blur-radius spread-radius
+        color
+    */
+    box-shadow: 4px 4px 8px 2px
+}
+
+#div_1 {
+
+    font-family: sans-serif;
+}
+
+#div_2 {
+    font-family: monospace;
+    font-weight: bold;
+}
+#div_3 {
+    font-family: cursive;
+    font-size: 24px; /* pt em % */
+}
+#div_4 {
+    font-family: fantasy;
+    text-decoration: line-through;
+}
+
+#div_5 {
+    
+}
