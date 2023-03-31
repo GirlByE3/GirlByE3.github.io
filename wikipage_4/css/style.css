@@ -30,3 +30,12 @@ li {
 .clear {
     clear: both;
 }
+
+.moth_image h3 {
+    background-color: azure;
+    text-align: center;
+}
+
+.moth_image  {
+    text-align: center;
+}
