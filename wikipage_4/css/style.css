@@ -1,0 +1,32 @@
+li {
+    list-style-type: none;
+}
+
+.moth_image {
+   width: 250px;
+   border: 1px solid grey;
+   background-color: lightgray;
+   padding: 4px;
+   margin: 12px; 
+}
+
+.moth_image img {
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.left_stacked {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
