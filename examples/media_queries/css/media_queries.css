@@ -1,0 +1,29 @@
+#desktop,
+#tablet,
+#mobile {
+    padding: 100px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#desktop {
+    background-color: blueviolet;
+}
+
+#tablet {
+    background-color: blue;
+}
+
+#mobile {
+    background-color: green;
+}
+
+@media screen and (min-width: 1200px) {
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+@media    screen and (max-width: 1279px) and (min-width: 768px) {
+    
+} 
