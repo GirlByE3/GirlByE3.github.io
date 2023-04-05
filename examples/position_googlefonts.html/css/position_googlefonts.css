@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&family=Space+Mono&display=swap');
+
+#container {
+    background-color: rgb(176, 46, 46);
+    margin: 200px;
+    height: 400px;
+    position: relative;
+}
+
+#inner_content {
+    background-color: rgb(46, 184, 46);
+    position: sticky;
+    left: 0px;
+    top: 100px;
+}
+
+#p1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+#p3 {
+    font-family: 'Space Mono', monospace;
+}
