@@ -10,10 +10,12 @@
     border-bottom: 1px solid grey;
 }
 
-.thead tr {
+.thead td {
     background-color: aqua;
 }
 
 tbody tr:nth-child(even) {
     background-color: lightblue;
 }
+
+
