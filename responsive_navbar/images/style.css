@@ -168,9 +168,8 @@ li a {
    text-align: right;
 }
 
-@media screen and (max-width) {
-   ul {
-    flex-direction: column;
-    text-align: center;
-   } 
-}
+/* @media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
