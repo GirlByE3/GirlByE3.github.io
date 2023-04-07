@@ -54,6 +54,55 @@ li a {
     top: 100%;
 }
 
+/* NEW RELASES */
+
+.h1_new_releases{
+    border: 7px solid rgb(201, 78, 206);
+   background-color: rgb(40, 154, 114);
+   padding-inline: 2px;
+   margin: auto;
+   text-align: center;
+}
+
+.h3_new_releases {
+   border: 7px solid rgb(180, 202, 33);
+   background-color: rgb(40, 154, 114);
+   padding-inline: 2px;
+   margin: auto;
+}
+
+/* GAMES */
+
+.h3_games {
+    text-align: right;
+    margin:     right;
+    padding-right: 100px;
+}
+
+.h3_games {
+    width: 60%;
+}
+
+
+/* ABOUT */
+
+.img_3 {
+    width: 100%;
+} 
+
+.hours {
+    width: 250px;
+    font-weight: 16px color white;
+   border: 1px solid rgb(180, 202, 33);
+   background-color: rgb(215, 97, 29);
+   padding: 10px;
+   margin: 50px; 
+}
+
+.hours {
+    justify-content: center;
+}
+
 
 
 /* @media screen and (max-width: 768px) {
@@ -61,7 +110,3 @@ li a {
         flex-direction: column;
         text-align: center;
     }
-    #home {
-        margin-right: 0px;
-    }
-} */

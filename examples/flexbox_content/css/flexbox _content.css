@@ -1,0 +1,29 @@
+main {
+    width: 800px;
+    margin: 24px auto;
+}
+
+.side_by_side {
+    display: flex;
+    align-items: center;
+    margin: 48px 24px;
+}
+
+.side_by_side img {
+    flex: 2;
+    border-radius: 40px 0px 40px 0px;
+}
+.side_by_side p {
+    flex: 1;
+}
+
+.gallery_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_row {
+    box-sizing: border-box;
+    width: colc (33.33% - 2*24);
+    margin: 24px;
+}
