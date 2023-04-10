@@ -54,7 +54,7 @@ footer a:hover {
 ****************************************************************************/
 #site_grid {
         display: grid;
-        grid-template-columns: 1fr 800 1fr;
+        grid-template-columns: 1fr 800px 1fr;
         grid-auto-rows: minmax(50px, auto);
         grid-template-areas: 
             "nav_area nav_area nav_area"
@@ -67,7 +67,7 @@ footer a:hover {
     }
     
 section {
-    border: 4px solid rgb(0, 255, 200);
+    border: 4px solid rgb(61, 203, 32);
 }
 
 nav {
@@ -82,15 +82,15 @@ nav {
     grid-area: three_cards_area;
 }
 
-#carousel_area {
+#carousel_container {
     grid-area: carousel_area;
 }
 
-#gallery_area {
+#gallery_container {
     grid-area: gallery_area;
 }
 
-#two_cards_area {
+#two_cards {
     grid-area: two_cards_area;
 }
 
@@ -103,7 +103,7 @@ footer {
 nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    margin: 40px;
 }
 
 footer {
@@ -173,17 +173,17 @@ footer ul {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     #site_grid {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "nav_area"
-        "hero_area"
-        "three_cards"
-        "carousel_area"
-        "gallery_area "
-        "two_cards_area"
-        "footer_area";
+    "hero_area"
+    "three_cards_area"
+    "carousel_area"
+    "gallery_area"
+    "two_cards_area"
+    "footer_area";
     }
 
     nav {
