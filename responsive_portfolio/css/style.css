@@ -168,8 +168,8 @@ footer ul {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(35, 82, 52);
-    text-shadow: 2px 2px 3px rgb(5, 255, 218);
+    color: rgb(0, 255, 200);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 /****************************************************************************
@@ -178,8 +178,8 @@ footer ul {
 
 #hero a,
 .card a {
-    background-color: rgb(43, 224, 55);
-    color: indigo;
+    background-color: rgb(52, 120, 57);
+    color: rgb(163, 255, 229);
     border: 2px solid indigo;
     border-radius: 24px;
     display: inline-block;
@@ -208,7 +208,7 @@ footer ul {
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
-    box-shadow: 4px 4px 8px 0px rgb(93, 23, 154);
+    box-shadow: 4px 4px 15px 0px rgb(0, 255, 170);
     flex: 1px;
     display: flex;
     flex-direction: column;
