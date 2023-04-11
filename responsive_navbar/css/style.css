@@ -168,7 +168,7 @@ li a {
    text-align: right;
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 800px) {
    ul {
     flex-direction: column;
     text-align: center;

@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+p {
+    font-size : 32px;
+    margin: 24px;
+    height: 1000px;
+}
+
+#hero_1 {
+    background-image: url("../images/exam.1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 500px;
+    position: relative;
+}
+
+#hero_1 h1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+#hero_2 {
+    background-image: url("../images/exam6.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(207, 119, 32);
+    text-align: center;
+}
+
+#hero_2 h2 {
+    font-family: monospace;
+    font-size: 60px;
+}
+
+#hero_2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+#hero_3 {
+    background-image: url("../images/exam2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(242, 180, 10);
+    text-align: center;
+}
+
+#hero_3 h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+#hero_3 h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    padding-bottom: 60px;
+}
