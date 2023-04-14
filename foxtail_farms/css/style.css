@@ -14,14 +14,16 @@ body {
     margin: 0;
 }
 
+#logo {
+    flex: 1;
+}
 
-#hero_1 {
-    background-image: url("../images/FF2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right center;
-    height: 500px;
-    position: relative;
+#logo img {
+    width: 100px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
 }
 
 h1,
@@ -53,7 +55,7 @@ a {
 nav,
 nav a,
 footer a {
-    color: rgb(80, 8, 49);
+    color: rgb(247, 170, 98);
 }
 
 nav a:hover,
@@ -203,12 +205,12 @@ nav {
     grid-area: hero_area;
 }
 
-#three_cardsh3 {
-    text-align: center;
-}
-
 #three_cards {
     grid-area: three_cards_area;
+}
+
+#cards_h3 {
+    text-align: center;
 }
 
 #carousel_container {
@@ -267,7 +269,7 @@ nav .social_media {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: rgb(221, 219, 223);
 }
 
 nav a:hover,
@@ -296,12 +298,12 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../images/exam9.webp");
+    background-image: url("../images/FF2.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(110, 255, 248);
-    text-shadow: 2px 2px 3px rgba(85, 255, 12, 0.735);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.735);
 }
 
 /****************************************************************************
@@ -310,9 +312,9 @@ footer ul {
 
 #hero a,
 .card a {
-    background-color: rgb(52, 120, 57);
-    color: rgb(163, 255, 229);
-    border: 2px solid indigo;
+    background-color: rgb(224, 156, 108);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -335,21 +337,29 @@ footer ul {
 }
 
 .card {
-    border: 2px solid indigo;
-    color: indigo;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(224, 156, 108);
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
-    box-shadow: 4px 4px 15px 0px rgb(0, 255, 170);
+    box-shadow: 4px 4px 15px 0px rgb(224, 156, 108);
     flex: 1px;
     display: flex;
     flex-direction: column;
+}
+
+.card img {
+    width: 100%;
 }
 
 .card p {
     font-size: 18px;
     flex: 1;
     margin-top: 0px
+}
+
+.card_h3 {
+    text-align: center;
 }
 
 /****************************************************************************
@@ -419,7 +429,7 @@ footer ul {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     #site_grid {
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -452,7 +462,7 @@ footer ul {
         height: auto;
     }
     #gallery_4 {
-        max-height: 1900px;
+        max-height: 780px;
     }
     #gallery_4 img {
         width: 45%
