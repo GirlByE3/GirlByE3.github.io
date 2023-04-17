@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Forms Example</title>
+        </head>
+    <body>
+        <h1>Personal Detaits</h1>
+        <form>
+            <fieldset>
+                <legend>Required</legend>
+                <div>
+                    <label for="*_first_name_id">* First Name:</label>
+                    <input type="text" id="first_name_id" name="first_name_id">
+                </div>
+                <br>
+                <div>
+                    <lable for="* _ate_name_id">* Last Name:</lable>
+                    <input type="text" id="last_name_id" name="last_name_id">
+                </div>
+                <br>
+                <div>
+                    <lable for="*_email_id">* Email:</lable>
+                    <input type="text" id="last_name_id" name="last_name_id">
+                </div>
+                <div>
+                    <lable for="*_phone_number">* Phone Number:</lable>
+                    <input type="text" id="last_name_id" name="last_name_id">
+                </div>
+                <br>
+                <p>Gender</p>
+                <div>
+                    <input type="checkbox" id="male_checkbox" name="vehicle_1" value="male">
+                    <label for="male_checkbox">Male</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="female_checkbox" name="vehicle_2" value="female">
+                    <label for="female_checkbox">Female</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="other_checkbox" name="vehicle_3" value="other">
+                    <label for="other_checkbox">Other</label>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="date_id">Date of Proposed Outing</label>
+                    <input type="date" id="date_id" name="birthday">
+                    <!-- <input type="datetime-local" id="date_id" name="birthday"> -->
+                </div>
+                <br>
+            </fieldset>
+                <br>
+            <fieldset>
+                <legend>Check All That Apply</legend>
+                <div>
+                    <input type="checkbox" id="i_have_tattoos_checkbox" name="vehicle_1" value="i_have_piercings_">
+                    <label for="i_have_piercings__checkbox">I Have Piercings</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="i_have_piercings__checkbox" name="vehicle_1" value="i_have_tattoos">
+                    <label for="i_have_piercings_checkbox">I Have Tattoos</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="i_work_full-time" name="vehicle_2" value="i_work_full-time">
+                    <label for="_work_full-time_checkbox">I work full-time</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="my_parents_are_rich_checkbox" name="vehicle_3" value="my_parents_are_rich_checkbox">
+                    <label for="my_parents_are_rich_checkbox">My parents are rich checkbox</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Education</legend>
+            <fieldtext>    
+                <div>
+                    <label for="education_id">
+                        Education
+                    </label>
+                    <select id="education_id" name="education" >
+                    <!-- <select id="food_group_id" name="food_group" multiple> -->
+                        <option value="fruits">Elementary</option>
+                        <option value="vegetables">Middle School</option>
+                        <option value="meats">College</option>
+                        <option value="brains">Street Smart</option>
+                        <option value="candy">Alien</option>
+                    </select>
+                </div>
+            </fieldtext>
+            </fieldset>
+            <fieldset>
+                <legend>Essay Section</legend>
+                <div>
+                <label for="code_feeling_id">Tell us your concerns.</label>
+                <textarea 
+                    id="code_feeling_id" 
+                    name="code_feeling_id"
+                    rows="5"
+                    cols="40"
+                    placeholder="This the default area for a text area.">
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <input type="button" value="SUBMIT">
+                </div>
+            </fieldset>      
+         </form>
+    </body>
+</html> 
