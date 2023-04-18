@@ -31,24 +31,25 @@
                 </div>
                 <br>
                 <p>Gender</p>
+                <hr>                 
                 <div>
-                    <input type="checkbox" id="male_checkbox" name="vehicle_1" value="male">
-                    <label for="male_checkbox">Male</label>
+                    <input type="radio" id="gender_radio" name="gender" value="gender">
+                    <label for="gender_radio">Male</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="female_checkbox" name="vehicle_2" value="female">
-                    <label for="female_checkbox">Female</label>
+                    <input type="radio" id="gender_radio" name="gender" value="gender">
+                    <label for="gender_radio">Female</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="other_checkbox" name="vehicle_3" value="other">
-                    <label for="other_checkbox">Other</label>
+                    <input type="radio" id="gender_radio" name="gender" value="gender">
+                    <label for="gender_radio">Other</label>
                 </div>
                 <br>
                 <br>
                 <div>
                     <label for="date_id">Date of Proposed Outing</label>
                     <input type="date" id="date_id" name="birthday">
-                    <!-- <input type="datetime-local" id="date_id" name="birthday"> -->
+
                 </div>
                 <br>
             </fieldset>
@@ -60,15 +61,15 @@
                     <label for="i_have_piercings__checkbox">I Have Piercings</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="i_have_piercings__checkbox" name="vehicle_1" value="i_have_tattoos">
+                    <input type="checkbox" id="i_have_piercings__checkbox" name="vehicle_2" value="i_have_tattoos">
                     <label for="i_have_piercings_checkbox">I Have Tattoos</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="i_work_full-time" name="vehicle_2" value="i_work_full-time">
+                    <input type="checkbox" id="i_work_full-time" name="vehicle_3" value="i_work_full-time">
                     <label for="_work_full-time_checkbox">I work full-time</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="my_parents_are_rich_checkbox" name="vehicle_3" value="my_parents_are_rich_checkbox">
+                    <input type="checkbox" id="my_parents_are_rich_checkbox" name="vehicle_4" value="my_parents_are_rich_checkbox">
                     <label for="my_parents_are_rich_checkbox">My parents are rich checkbox</label>
                 </div>
             </fieldset>
@@ -80,7 +81,6 @@
                         Education
                     </label>
                     <select id="education_id" name="education" >
-                    <!-- <select id="food_group_id" name="food_group" multiple> -->
                         <option value="fruits">Elementary</option>
                         <option value="vegetables">Middle School</option>
                         <option value="meats">College</option>
@@ -89,6 +89,23 @@
                     </select>
                 </div>
             </fieldtext>
+            </fieldset>
+            <fieldset>
+                <legend>Hobbies</legend>
+                <p>Choose favorite hobby.</p>
+                <div>
+                    <input type="radio" id="smiw_radio" name="hobbies" value="swim">
+                    <label for="rasp_radio">Swimming</label>
+                </div>
+                <div>
+                    <input type="radio" id="hike_radio" name="hobbies" value="hike">
+                    <label for="dfvp_radio">Hiking</label>
+                </div>
+                <div>
+                    <input type="radio" id="tv_radio" name="hobbies" value="tv">
+                    <label for="tv_radio">Watching T.V.</label>
+                </div>
+            </fieldset>
             </fieldset>
             <fieldset>
                 <legend>Essay Section</legend>
