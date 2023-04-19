@@ -1,0 +1,127 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ".header_area."
+        ".main_area.";
+}
+
+header {
+    grid-area: header_area;
+    text-align: center;
+    color: rgba(127, 1, 112, 0.978);
+}
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+form {
+    background-color: blanchedalmond;
+    border: 2px solid #d4239652;
+    padding: 36px;
+}
+
+select {
+    padding: 12px;
+    border: 3px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(61, 108, 11);
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0px 19px;
+}
+
+#first_name_id {
+    border: 5px rgb(255, 255, 255);
+    border-radius: 24px;
+    background-color: rgb(30, 210, 120);
+    color: rgb(255, 255, 255);
+}
+
+#first_name:focus-visible {
+    outline: 0;
+    background-color: rgb(38, 100, 72);
+    color: white;
+}
+
+#last_name_id {
+    border: 5px cyan;
+    border-radius: 24px;
+    color: bisque;
+}
+
+#last_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(38, 100, 72);
+    color: white;
+}
+
+#email_name_id {
+    border: 5px cyan;
+    border-radius: 24px;
+    color: bisque;
+}
+
+#email_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(38, 100, 72);
+    color: white;
+}
+
+#message_name_id {
+    border: 5px cyan;
+    border-radius: 24px;
+    color: bisque;
+}
+
+#message_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(38, 100, 72);
+    color: white;
+}
+
+.text_input {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.text_input_label {
+    text-align: right;
+    margin: 5px;
+}
+
+.text_input label,
+.text_input input {
+    flex:1;
+}
+
+.text_input input {
+
+    /* margin: 4px 0px 16px; */
+    padding: 12px;
+    font-size: 18;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, rgb(187, 44, 34), rgb(213, 18, 187));
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+input[type=submit]:active {
+    background: linear-gradient(to top, rgb(187, 44, 34), rgb(213, 18, 187));
+}
