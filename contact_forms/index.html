@@ -18,7 +18,9 @@
                         </h5>    
                     </header>
                     <main>
-                        <form>   
+                        <form action="https://getform.io/f/affc82ab-56aa-4892-9bb3-7b957d2b2163" 
+                        method="POST" enctype="multipart/form-data"> 
+                        <form>    
                             <div>
                                 <label for="help_id">
                                     What can we help you with?
@@ -45,7 +47,20 @@
                             </div>
                             <div class="text_input">
                                 <label for="email_id">Email:</label>
-                                <input type="text" id="last_name_id" name="last_name">
+                                <input 
+                                type="text" 
+                                id="last_name_id" 
+                                name="last_name">
+                            </div>
+                            <div class="text_input">
+                                <label for="password_id">Password:</label>
+                                <input
+                                required
+                                minlength="0" 
+                                maxlength="8"
+                                type="password" 
+                                id="password_id" 
+                                name="password">
                             </div>
                             <div class="text_input">
                                 <label for="message_id">Message</label>

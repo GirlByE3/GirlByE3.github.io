@@ -37,22 +37,25 @@ select {
 }
 
 #first_name_id {
-    border: 5px rgb(255, 255, 255);
+    border: 5px solid cornflowerblue;
     border-radius: 24px;
-    background-color: rgb(30, 210, 120);
+    background-color: rgb(215, 120, 11);
     color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#first_name:focus-visible {
+#first_name_id:focus-visible {
     outline: 0;
-    background-color: rgb(38, 100, 72);
+    background-color:rgb(38, 100, 72);
     color: white;
 }
 
 #last_name_id {
-    border: 5px cyan;
+    border: 5px solid cornflowerblue;
     border-radius: 24px;
-    color: bisque;
+    background-color: rgb(215, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #last_name_id:focus-visible {
@@ -62,9 +65,11 @@ select {
 }
 
 #email_name_id {
-    border: 5px cyan;
+    border: 5px solid cornflowerblue;
     border-radius: 24px;
-    color: bisque;
+    background-color: rgb(215, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #email_name_id:focus-visible {
@@ -73,10 +78,34 @@ select {
     color: white;
 }
 
-#message_name_id {
-    border: 5px cyan;
+#password_id {
+    border: 5px solid cornflowerblue;
     border-radius: 24px;
-    color: bisque;
+    background-color: rgb(215, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#password_id:focus-visible {
+    outline: 0;
+    background-color: rgb(38, 100, 72);
+    color: white;
+}
+
+#password_id:invalid {
+    outline: 0;
+    background-color: salmon;
+    border-bottom: red;
+}
+
+
+
+#message_idname_id {
+    border: 5px rgb(255, 255, 255);
+    border-radius: 24px;
+    background-color: rgb(215, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #message_name_id:focus-visible {
@@ -104,7 +133,7 @@ select {
 
 .text_input input {
 
-    /* margin: 4px 0px 16px; */
+    margin: 4px 0px 16px;
     padding: 12px;
     font-size: 18;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -116,7 +145,7 @@ input[type=submit] {
     border: 0px;
     border-radius: 8px;
     padding: 12px 48px;
-    cursor: pointer;
+    cursor: alias;
     color: rgb(255, 255, 255);
 }
 input[type=submit]:hover {
@@ -125,3 +154,6 @@ input[type=submit]:hover {
 input[type=submit]:active {
     background: linear-gradient(to top, rgb(187, 44, 34), rgb(213, 18, 187));
 }
+
+
+input:not(:focus)
