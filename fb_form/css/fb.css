@@ -1,0 +1,217 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ".header_area."
+        ".main_area.";
+}
+/* Header */
+header {
+    grid-area: header_area;
+    justify-content : center;
+    display: flex;
+}
+/* .flex-container for first & last name */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ .flex-container {
+    display: flex;
+    background-color: #231414;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+img {
+    display: block;
+    width: 60%;
+    margin-right: center;
+}
+
+/* .img_logo {
+    justify-content: center;
+} */
+
+ h3 {
+    grid-area: header_area;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.978);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+ p {
+    grid-area: header_area;
+    text-align: center;
+    color: rgba(168, 175, 195, 0.978);
+    font-size: 17px;
+}
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: rgb(229, 238, 235);
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #f3ecf0;
+    padding: 36px;
+}
+
+#first_name_id {
+    border: 2px solid rgb(149, 153, 159);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+#first_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}    
+
+#last_name_id {
+    border: 2px solid rgb(149, 153, 159);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+#last_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.name-container {
+    display: flex;
+    justify-content: flex;
+}
+
+/* .name {
+    display: flex;
+    justify-content: center;
+} */
+
+#email_id {
+    border: 2px solid rgb(149, 153, 159);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+#email_id:focus-visible {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#password_id {
+    border: 2px solid rgb(149, 153, 159);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+#password_id:focus-visible {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#password_id:invalid {
+    outline: 0;
+    background-color: rgb(244, 6, 6);
+    border: 3px rgb(255, 255, 255);
+    color: white;
+}
+
+/* .birthday {
+    margin-top: ;
+} */
+
+.birthday, p {
+    color: black;
+}
+
+.birthday {
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthday {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 1px;
+    padding: 5px;
+}
+/* .birthbay {
+    justify-content: flex;
+    width: 100%;
+} */
+
+ /* Gender */
+.gender_container, p {
+    color: black;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.gender_container {
+    display: flex;
+    justify-content: space-between;
+    width: 133px;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 5px;
+}
+
+/* .text_input {
+    flex-direction: row;
+} */
+
+/* .text_input_label {
+    text-align: right;
+    margin: 10px;
+} */
+
+.text_input input {
+    margin: 4px 0px 16px;
+    padding: 12px;
+    font-size: 18;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+/* Button */
+input[type=sign_up] {
+    background: rgb(24, 164, 28);
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin: center;
+    cursor: alias;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+input[type=submit]:active {
+    background: rgb(24, 164, 28);
+    color: rgb(134, 138, 142);
+}
