@@ -4,39 +4,40 @@
     grid-template-areas: 
         ".header_area."
         ".main_area.";
-}
+} */
 /* Header */
-header {
-    grid-area: header_area;
+/* header {
+    /* grid-area: header_area;
     justify-content : center;
     display: flex;
-}
+} */
 /* .flex-container for first & last name */
 .flex-container {
-    display: flex;
     justify-content: space-between;
-  }
+    flex-wrap: wrap;
+}
+ 
   
  .flex-container {
     display: flex;
     background-color: #231414;
-    margin: 10px;
+    margin: 10px; 
     padding: 20px;
     font-size: 30px;
-  }
+}
 
 
-img {
+/* img {
     display: block;
     width: 60%;
     margin-right: center;
-}
-
-/* .img_logo {
-    justify-content: center;
 } */
 
- h3 {
+.img_logo {
+    justify-content: center;
+}
+
+ /* h3 {
     grid-area: header_area;
     text-align: center;
     color: rgba(0, 0, 0, 0.978);
@@ -51,19 +52,19 @@ img {
 }
 main {
     grid-area: main_area;
-}
+} */
 
-body {
+/* body {
     background-color: rgb(229, 238, 235);
-}
+} */
 
-form {
+/* form {
     background-color: rgb(255, 255, 255);
     border: 2px solid #f3ecf0;
     padding: 36px;
-}
+} */
 
-#first_name_id {
+/* #first_name_id {
     border: 2px solid rgb(149, 153, 159);
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
@@ -94,7 +95,7 @@ form {
 .name-container {
     display: flex;
     justify-content: flex;
-}
+} */
 
 /* .name {
     display: flex;
@@ -166,11 +167,11 @@ form {
     color: black;
 }
 
-.flex_box {
+/* .flex_box {
   display: flex;
   justify-content: space-between;
   
-}
+} */
 
 .gender_container {
     display: flex;

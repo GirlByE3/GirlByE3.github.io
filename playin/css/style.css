@@ -1,0 +1,51 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+  }
+  .container {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .card {
+    width: 25%;
+    background-color: #e8e8e8;
+    text-align: center;
+    border: 5px solid #333;
+    cursor: pointer;
+    transition: .5s ease-out;
+  }
+  h1 {
+    font-size: 28px;
+    background-color: #333;
+    color: #e8e8e8;
+    margin: 0;
+    padding: 8px;
+    transition: .5s ease-out;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 16px;
+  }
+  h3 {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 16px;
+  }
+  
+  .card:hover {
+      transform: scale(1.1);
+  }
+  
+  .card:hover h1{
+    background-color: green;
+  }
+  
