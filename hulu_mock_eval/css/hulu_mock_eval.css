@@ -1,0 +1,94 @@
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: right;
+    background-image: url("../images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#two_cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 15px 0px rgb(0, 255, 170);
+    flex: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    margin-top: 0px
+}
+
+input[type=button]:active {
+    background: linear-gradient(to top, rgba(15, 203, 15, 0.272), rgba(10, 238, 116, 0.319));
+}
+
+input[type=button] {
+    background: linear-gradient(to bottom, rgb(0, 228, 91), rgb(5, 255, 118));
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #site_grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav_area"
+    "hero_area"
+    "three_cards_area"
+    "carousel_area"
+    "gallery_area"
+    "two_cards_area"
+    "footer_area";
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    #three_cards,
+    #two_cards {
+        flex-direction: column;
+    }
+    .card {
+        align-items: center;
+        margin: 36px 24px 0px;
+    }
+    #gallery_1,
+    #gallery_2 {
+        grid-template-columns: 1fr;
+    }
+    #gallery_2 img {
+        width: 100%;
+        height: auto;
+    }
+    #gallery_4 {
+        max-height: 780px;
+    }
+    #gallery_4 img {
+        width: 45%
+    }
+    #gallery_5 {
+        columns: 2 auto;
+    }
+}
