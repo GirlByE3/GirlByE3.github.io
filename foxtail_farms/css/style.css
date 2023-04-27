@@ -54,8 +54,9 @@ a {
 
 nav,
 nav a,
-/* footer a {  */  {
+ {    {
     color: rgb(247, 170, 98);
+}
 }
 
 nav a:hover,
@@ -242,7 +243,8 @@ footer ul {
 ****************************************************************************/
 
 #hero a,
-.card a {
+.card a,
+.footer a {
     background-color: rgb(224, 156, 108);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
@@ -398,7 +400,7 @@ form input {
 }
 
 
-form button {
+.footer button {
     background: rgb(224, 156, 108);
     border: 2px solid white;
     color: white;
@@ -415,14 +417,18 @@ form button {
     transform: scale(1.1);
 }
 
-.social_media {
+.social_media li{
     margin-top: 30px;
 }
 
-.social_media i {
-    margin: 10px;
+.social_media li {
+    margin: 1px;
     cursor: pointer;
 }
+
+
+
+background size
 
 
 
