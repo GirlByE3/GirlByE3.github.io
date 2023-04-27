@@ -161,15 +161,49 @@ section#cards p {
 }
 
 #cards_container {
-    display: gird;
+    display: grid;
     grid-template-columns: repeat(4, 295px);
-    grid-template-rows: 476px;
+    grid-template-rows: 45px;
+    grid-gap: 24px;
+    width: 1252px;
+    margin: 50px auto;
+    text-align: left;
 }
+
+#cards_container div {
+    padding-left: 24px;
+}
+
+#cards_container h6 {
+    font-weight: normal;
+}
+
+#cards_container h4 {
+    margin-bottom: 12px;
+}
+
 
 #bobs_burgers {
     background-image: url(../images/images/bobsburgers.jpeg);
     background-size: contain;
 }
+
+#prey {
+    background-image: url(../images/images/prey.jpeg);
+    background-size: contain;
+}
+
+#handmaids_tale {
+    background-image: url(../images/images/handmaidstale.jpeg);
+    background-size: contain;
+}
+
+#dargon {
+    background-image: url(../images/images/houseofdragon.jpeg);
+    background-size: contain;
+}
+
+
 @media screen and (max-width: 768px) {
     .button_link {
         width: 80%;
