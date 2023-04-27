@@ -63,6 +63,11 @@ p {
     border-radius: 4px;
 }
 
+.single_input:not(:placeholer-showen):invalid {
+    border: 2px solid red;
+    background-color: white;
+}
+
 .birthday {
     display: flex;
     padding: 10px;
@@ -71,11 +76,14 @@ p {
 #month_id,
 #day_id,
 #year_id {
-    flex: 1;
+    display: flex;
+    color: black;
     margin: 12px;
     padding: 12px;
     border: 1px solid rgba(154, 158, 166, 0.541);
     border-radius: 4px;
+    width: 100%;
+    font-size: 100%;
 }
 
 .three_inputs {
@@ -91,8 +99,8 @@ p {
     font-size: 100%;
     border-radius: 4px;
     border: 1px solid rgba(154, 158, 166, 0.541);
-    margin: 10px;
-    padding: 10px;
+    margin: 12px;
+    padding: 12px;
     width: 100%;
     justify-content: space-between;
 }
