@@ -38,25 +38,28 @@
                                 id="last_name_id"
                                 name="last_name">
                             </div>
+                            <div>
                             <div class="single_input">
                                 <input type="text" placeholder="Mobile number or email"
                                 required
-                                minlength="4"
+                                minlength="3"
                                 maxlength="40"
                                 type="text" 
                                 placeholder="email"
                                 id="email_id"
-                                name="email">
+                                name="email" required
+                                pattern=".+@gmail.com">
                             </div>
+                        </div>
                             <div class="single_input">
                                 <input 
                                 required
                                 minlength="4"
-                                maxlength="40"
+                                maxlength="15"
                                 type="text" 
                                 placeholder="Password"
                                 id="password_id"
-                                name="password">
+                                name="password" required>
                             </div>
                             <section>   
                                     <div class="three_input">    

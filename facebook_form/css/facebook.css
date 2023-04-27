@@ -63,10 +63,52 @@ p {
     border-radius: 4px;
 }
 
-.single_input:not(:placeholer-showen):invalid {
+
+/* input:not(:placeholer-showen):invalid {
     border: 2px solid red;
-    background-color: white;
 }
+input:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+
+} */
+
+#password_id {
+    border: 1px solid rgb(195, 16, 16);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#password_id:focus-visible {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#password_id:invalid {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(0, 0, 0, 0.978)
+}
+
+/* #email_id:not(:placeholer-showen):invalid {
+   border: 2px solid #ff0000;
+   background-color: white;
+}
+
+#email_id:focus-visible {
+    outline: 0;
+    border: 2px solid#ff0000;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#email_id:invalid {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: rgb(0, 0, 0);
+}  */
 
 .birthday {
     display: flex;
@@ -106,7 +148,6 @@ p {
 }
 
 
-
 section p {
     font-size: small;
 }
@@ -134,10 +175,12 @@ input[type=button] {
 }
 
 #im_done {
-    text-align: center;
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
 }
    
 section {
     padding-inline: 9px;
 }
+
