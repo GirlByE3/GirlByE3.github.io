@@ -89,7 +89,7 @@ input:invalid:focus {
 #password_id:invalid {
     outline: 0;
     background-color: rgb(255, 255, 255);
-    border: solid rgba(0, 0, 0, 0.978)
+    border: 1px solid rgba(154, 158, 166, 0.541);
 }
 
 /* #email_id:not(:placeholer-showen):invalid {
