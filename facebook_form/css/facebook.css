@@ -64,13 +64,13 @@ p {
 }
 
 
-/* input:not(:placeholer-showen):invalid {
+ input:not(:placeholder-showen):invalid {
     border: 2px solid red;
 }
 input:invalid:focus {
     background-image: linear-gradient(pink, lightgreen);
 
-} */
+} 
 
 #password_id {
     border: 1px solid rgb(195, 16, 16);
@@ -157,12 +157,12 @@ section p {
     justify-content: center;
 }
 
-input[type=button]:active {
+input[type=submit]:active {
     display: inline;
     background: linear-gradient(to top, rgba(128, 128, 128, 0.529), rgba(180, 171, 171, 0.784));
 }
     
-input[type=button] {
+input[type=submit] {
     background: linear-gradient(to bottom, #00a400, rgb(5, 186, 86));
     border: 0px;
     border-radius: 6px;

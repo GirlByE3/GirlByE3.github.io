@@ -148,7 +148,7 @@ section#cards {
 section#cards h2,
 section#cards p,
 section#cards h4,
-section#cardsh6 {
+section#cards h6 {
     color: white;
 }
 section#cards  h2 {
@@ -163,7 +163,7 @@ section#cards p {
 #cards_container {
     display: grid;
     grid-template-columns: repeat(4, 295px);
-    grid-template-rows: 45px;
+    grid-template-rows: 450px;
     grid-gap: 24px;
     width: 1252px;
     margin: 50px auto;
@@ -204,7 +204,7 @@ section#cards p {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .button_link {
         width: 80%;
     }
@@ -212,5 +212,27 @@ section#cards p {
         flex-direction: column;
         text-align: center;
         padding-bottom: 36px;
+    }
+    
+    section#cards {
+        padding: 0px 24px;
+    }
+
+    section#cards p {
+        width: 100%;
+    }
+
+    #card_container {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #card_container div {
+        background-repeat: no-repeat;
+    }
+
+    #card_container h4 {
+        font-weight: normal;
     }
 }

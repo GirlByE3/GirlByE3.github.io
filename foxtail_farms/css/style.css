@@ -1,11 +1,12 @@
  /* Google Font API imports - found at https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;600&display=swap');
 /*****************************************************************************
   Heading, Link, and Misc. Styles
 *****************************************************************************/
 * 
-/* DROPDOWN */
+
+
+
 {
     box-sizing: border-box;
 }
@@ -26,26 +27,35 @@ nav {
     background-color: rgb(0, 0, 0);
 }
 
-h1,
+
 h2,
-h3,
-a {
-    font-family: 'Secular One', sans-serif;
+h3 {
+    font-family: 'Montserrat', sans-serif 600;
 }
 
-h4,
+.class_dropdown_container {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif 600;
+}
+
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     font-size: 60px;
     margin-bottom: 0;
+    font-family: 'Lobster', cursive;
 }
 
 h4 {
     font-size: 18px;
     margin-top: 4px;
+    font-family: 'Montserrat', sans-serif 600;
 }
 
 a {
@@ -53,10 +63,8 @@ a {
 }
 
 nav,
-nav a,
- {    {
+nav a { 
     color: rgb(247, 170, 98);
-}
 }
 
 nav a:hover,
@@ -101,9 +109,9 @@ li a {
     opacity: 0;
     visibility: hidden;
     transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        top 0.5s;
+    opacity 0.5s,
+    visibility 0.5s,
+    top 0.5s;
 }
 
 .dropdown_container:hover .dropdown_menu {
@@ -172,6 +180,28 @@ nav {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 33px;
+}
+
+
+footer,
+footer a {   
+    color: rgb(247, 170, 98);
+}
+
+.footer button {
+    background: rgb(224, 156, 108);
+    border: 2px solid white;
+    color: white;
+    border-radius: 34px;
+    display: inline;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 #nav_links {
@@ -199,8 +229,7 @@ nav .social_media {
 }
 
 nav,
-nav a,
-footer a {
+nav a {
     color: rgb(221, 219, 223);
 }
 
@@ -216,9 +245,6 @@ nav h2 {
     padding: 0;
 }
 
-footer ul {
-    padding: 0;
-}
 
 /****************************************************************************
   Hero styles
@@ -243,8 +269,7 @@ footer ul {
 ****************************************************************************/
 
 #hero a,
-.card a,
-.footer a {
+.card a {
     background-color: rgb(224, 156, 108);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
@@ -350,6 +375,8 @@ footer ul {
 #gallery_6 {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
+    padding-inline: 12px;
 }
 
 #gallery_6 img {
@@ -358,30 +385,11 @@ footer ul {
     flex: 1 0 auto;
     object-fit: cover;
     display: flex;
+    border-radius: 5px ;
 }
 
 /* FOOTER */
-.footer {
-    /* margin-top: 0;
-    width: 100px;
-    padding: 100px 15%; */
-    background: black;
-}
 
-
-.footer ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0px;
-    list-style-type: none;
-    margin: 0px auto;
-}
-
-.footer div h3 {
-    font-weight: 300;
-    margin-bottom: 1px;
-    letter-spacing: 1px;
-}
 
 .col-1 a {
     display: block;
@@ -399,20 +407,6 @@ form input {
     bottom: none;
 }
 
-
-.footer button {
-    background: rgb(224, 156, 108);
-    border: 2px solid white;
-    color: white;
-    border-radius: 34px;
-    display: inline;
-    padding: 8px 16px;
-    margin-top: 12px;
-    min-width: 150px;
-    transition: 0.25s;
-    cursor: pointer;
-}
-
 form button {
     transform: scale(1.1);
 }
@@ -427,8 +421,6 @@ form button {
 }
 
 
-
-background size
 
 
 
