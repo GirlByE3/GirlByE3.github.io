@@ -62,18 +62,12 @@ p {
     border: 1px solid rgba(154, 158, 166, 0.541);
     border-radius: 4px;
 }
-input:not(:placeholder-showen):invalid {
-    border: 2px solid red;
-}
-input:invalid:focus {
-    background-image: linear-gradient(rgba(139, 199, 215, 0.38), rgba(213, 217, 213, 0.36));
-} 
 
 #password_id,
 #email_id,
 #last_name_id,
 #first_name_id {
-    border: 1px solid rgb(195, 16, 16);
+    border: 1px solid rgb(111, 89, 89);
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -88,16 +82,6 @@ input:invalid:focus {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-
-#password_id:invalid,
-#email_id
-#last_name_id,
-#first_name_id {
-    outline: 0;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(154, 158, 166, 0.541);
-}
-
 
 .birthday {
     display: flex;
@@ -116,6 +100,18 @@ input:invalid:focus {
     width: 100%;
     font-size: 100%;
 }
+
+#password_id:not(:placeholder-shown):invalid,
+#email_id:not(:placeholder-shown):invalid,
+#last_name_id:not(:placeholder-shown):invalid,
+#first_name_id:not(:placeholder-shown):invalid {
+    border: 2px solid red;
+}
+input:invalid:focus {
+    background-image: linear-gradient(rgba(139, 199, 215, 0.38), rgba(213, 217, 213, 0.36));
+} 
+
+
 
 .three_inputs {
     display: flex;
