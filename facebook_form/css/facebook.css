@@ -62,17 +62,17 @@ p {
     border: 1px solid rgba(154, 158, 166, 0.541);
     border-radius: 4px;
 }
-
-
- input:not(:placeholder-showen):invalid {
+input:not(:placeholder-showen):invalid {
     border: 2px solid red;
 }
 input:invalid:focus {
-    background-image: linear-gradient(pink, lightgreen);
-
+    background-image: linear-gradient(rgba(139, 199, 215, 0.38), rgba(213, 217, 213, 0.36));
 } 
 
-#password_id {
+#password_id,
+#email_id,
+#last_name_id,
+#first_name_id {
     border: 1px solid rgb(195, 16, 16);
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
@@ -80,35 +80,24 @@ input:invalid:focus {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#password_id:focus-visible {
+#password_id:focus-visible,
+#email_id
+#last_name_id,
+#first_name_id {
     outline: 0;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-#password_id:invalid {
+#password_id:invalid,
+#email_id
+#last_name_id,
+#first_name_id {
     outline: 0;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(154, 158, 166, 0.541);
 }
 
-/* #email_id:not(:placeholer-showen):invalid {
-   border: 2px solid #ff0000;
-   background-color: white;
-}
-
-#email_id:focus-visible {
-    outline: 0;
-    border: 2px solid#ff0000;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-#email_id:invalid {
-    outline: 0;
-    background-color: rgb(255, 255, 255);
-    border-bottom: rgb(0, 0, 0);
-}  */
 
 .birthday {
     display: flex;
@@ -119,7 +108,7 @@ input:invalid:focus {
 #day_id,
 #year_id {
     display: flex;
-    color: black;
+    color: rgb(0, 0, 0);
     margin: 12px;
     padding: 12px;
     border: 1px solid rgba(154, 158, 166, 0.541);
@@ -136,7 +125,7 @@ input:invalid:focus {
 .male,
 .custom {
     display: flex;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     border-radius: 4px;
@@ -150,16 +139,18 @@ input:invalid:focus {
 
 section p {
     font-size: small;
+    
 }
 
 #button {
     display: flex;
     justify-content: center;
+    padding-bottom: 18px;
 }
 
 input[type=submit]:active {
     display: inline;
-    background: linear-gradient(to top, rgba(128, 128, 128, 0.529), rgba(180, 171, 171, 0.784));
+    background: linear-gradient(to top, #00a400, #00a400);
 }
     
 input[type=submit] {
