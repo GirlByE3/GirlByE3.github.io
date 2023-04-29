@@ -111,8 +111,6 @@ input:invalid:focus {
     background-image: linear-gradient(rgba(139, 199, 215, 0.38), rgba(213, 217, 213, 0.36));
 } 
 
-
-
 .three_inputs {
     display: flex;
 }
