@@ -1,0 +1,266 @@
+/* * {
+   border: solid rgb(255, 255, 255);
+}    */
+
+
+/* HEROS */
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #040405;
+}
+
+#hero {
+    background-image: url("../images/backgroundLarge.jpg");
+} 
+
+/* NAV */
+nav {
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+    padding: 7px 36px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    width: 60px;
+}
+
+
+#black_nav_button {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+    transition: 0.5s;
+}
+#black_nav_button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+#blue_nav_button {
+    display: inline-block;
+    background-color: #0063e5;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 150px;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+/* HEROES CONTENT */
+main ul{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px
+}
+
+main .second_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(207, 207, 207);
+}
+main p {
+    font-size: 15px;
+}
+
+ #second_column_container img{
+    width: 500px;
+}
+
+.email {
+    flex: 1px;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    
+}
+.email button {
+    background-color: #0063e5;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+header {
+    text-align: center;
+}
+header h5 {
+    font-size: 11px;
+    color: rgb(195, 195, 195);
+}
+header a {
+    color: white;
+    font-size: small;
+}
+header h5 a{
+    color: rgb(195, 195, 195);
+    font-size: small;
+}
+
+section img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;;
+    width: 40x;
+    margin: 0px auto;
+}
+
+/* CARDS */
+
+
+#cards_section h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#cards_section {
+    text-align: center;
+    margin-top: 90px;
+}
+                
+#cards_section {
+    color: white;
+}
+#cards_section  h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#cards_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 295px);
+    grid-template-rows: 450px;
+    grid-gap: 24px;
+    width: 125px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+ #wakandaForever {
+    background-image: url(../images/wakandaForever.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+#andor {
+    background-image: url(../images/andor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#turningRed {
+    background-image: url(../images/turningRed.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cards_container_2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 295px);
+    grid-template-rows: 450px;
+    grid-gap: 24px;
+    width: 125px;
+    margin: 50px auto;
+    text-align: left;
+}
+#fireOfLove {
+    background-image: url(../images/fireOfLove.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#encanto {
+    background-image: url(../images/encanto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#fireOfLove {
+    background-image: url(../images/zootopiaPlus.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER */
+footer img {
+    align-items: center;
+    width: 60px;
+}
+footer div a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(119, 118, 118);
+    font-size: smaller;
+    list-style-type: none;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(119, 118, 118);
+    font-size: smaller;
+}
+
+@media screen and (max-width: 480px) {
+    .button_link {
+        width: 80%;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+    
+    section#cards {
+        padding: 0px 24px;
+    }
+
+    section#cards p {
+        width: 100%;
+    }
+
+    #card_container {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #card_container div {
+        background-repeat: no-repeat;
+    }
+
+    #card_container h4 {
+        font-weight: normal;
+    }
+} 

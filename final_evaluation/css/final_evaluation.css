@@ -15,6 +15,9 @@ body {
 
 /* NAV */
 nav {
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
     padding: 7px 36px;
 }
 
