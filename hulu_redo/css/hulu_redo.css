@@ -1,0 +1,120 @@
+/* * {
+   border: solid rgb(255, 255, 255);
+}   */
+
+
+/* HEROS */
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero {
+    background-image: url("../images/hulu-bg.jpeg");
+} 
+
+/* NAV */
+nav {
+    padding: 7px 36px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    width: 60px;
+}
+
+nav a {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* HEROES CONTENT */
+main ul{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px
+}
+
+main .first_column,
+main .second_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+main .first_column {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 18px;
+}
+
+
+    
+
+#first_column_container img{
+    width: 175px;
+}
+
+ #second_column_container img{
+    width: 300px;
+}
+
+.button_link {
+    display: inline-block;
+    background-color: #0063e5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px;
+    padding: 12px 50px;
+    padding-inline-start: 40px;
+    border-radius: 4px;
+    width: 130px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+.button_link:hover {
+    opacity: 0.5;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
+footer h5 {
+    font-size: 11px;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer h4{
+    color: white;
+}
+/* CARDS */

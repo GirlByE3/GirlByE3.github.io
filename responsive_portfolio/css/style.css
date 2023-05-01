@@ -69,45 +69,11 @@ footer a:hover {
 nav {
     grid-area: nav_area;
 }
-
-#hero {
-    grid-area: hero_area;
-}
-
-#three_cards {
-    grid-area: three_cards_area;
-}
-
-#carousel_container {
-    grid-area: carousel_area;
-    padding: 30px;
-}
-
-#gallery_container {
-    grid-area: gallery_area;
-}
-
-#two_cards {
-    grid-area: two_cards_area;
-}
-
-footer {
-    grid-area: footer_area;
-}
-/****************************************************************************
-  Nav/Footer styles
-****************************************************************************/
 nav {
     align-items: center;
     display: flex;
     margin: 40px;
 }
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
 #nav_links {
     justify-content: center;
 }
@@ -149,6 +115,41 @@ nav h2 {
     margin: 0;
     padding: 0;
 }
+
+#hero {
+    grid-area: hero_area;
+}
+
+#three_cards {
+    grid-area: three_cards_area;
+}
+
+#carousel_container {
+    grid-area: carousel_area;
+    padding: 30px;
+}
+
+#gallery_container {
+    grid-area: gallery_area;
+}
+
+#two_cards {
+    grid-area: two_cards_area;
+}
+
+footer {
+    grid-area: footer_area;
+}
+/****************************************************************************
+  Nav/Footer styles
+****************************************************************************/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 
 footer ul {
     padding: 0;
