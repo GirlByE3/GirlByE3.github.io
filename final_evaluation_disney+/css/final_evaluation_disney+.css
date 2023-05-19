@@ -92,11 +92,12 @@ main p {
 
 .email {
     flex: 1px;
-    border: 0;
+    border-radius: 0;
     outline: 0;
     margin-left: 20px;
     
 }
+
 .email button {
     background-color: #0063e5;
     border: 0;
@@ -185,7 +186,7 @@ section img {
 
 #cards_container_2 {
     display: grid;
-    justify-content: center;
+     justify-content: center;
     grid-template-columns: repeat(4, 295px);
     grid-template-rows: 450px;
     grid-gap: 24px;

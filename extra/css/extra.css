@@ -8,20 +8,41 @@ body {
 
 #hero {
    background-image: url("../images/Skate1.jpeg");
-    /* background-size: cover; no-repeat, 
-    center center fixed;
+    background-size: cover;  
     background-size: cover;
     min-height: 100%;
-    height: 100%; */
+    height: 100%; 
 }
 
-#nav_middle_container {
-    background-color: rgb(0, 0, 0);
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+   
+}
+
+nav img {
+    width: 60px;
+}
+
+nav a,
+ #fa-solid {
+    display: inline-block;
+    color: #1d3e26;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px 0px 8px 0px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: rgb(76, 146, 132);
 }
 
 ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 0px;
     list-style-type: none;
     max-width: 800px;
@@ -30,12 +51,22 @@ ul {
 
 ul li {
     padding: 12px;
+    width: 24px;
 }
 
 li a {
-    color:rgb(230, 147, 31);
+    color:#1d3e26;
     text-decoration: none;
 }
+
+.nav_middle_container {
+    background-color: rgb(230, 147, 31);
+
+}
+.nav_right_container {
+    background-color: rgb(230, 147, 31);
+}
+
 
 #home {
     margin-right: auto;
@@ -55,9 +86,9 @@ li a {
     opacity: 0;
     visibility: hidden;
     transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        top 0.5s;
+    opacity 0.5s,
+    visibility 0.5s,
+    top 0.5s;
 }
 
 .dropdown_container:hover .dropdown_menu {
@@ -66,49 +97,16 @@ li a {
     top: 100%;
 }
 
-/* nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
 
-nav img {
-    width: 60px;
-}
 
-nav a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
-    transition: background-color 0.5s;
-}
-
-nav a:hover {
-    background-color: rgb(93, 92, 92);
-}
-
-#hero_content {
+/* #hero_content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-h5 {
-    color: #00ed82;  
-}
 
-#hero_content p {
-    color: white;
-    font-size: 20px;
-    align-items: center;
-}
-
-.button_link {
+/* .button_link {
     display: inline-block;
     background-color: #00ed82;
     color: black;
@@ -124,139 +122,13 @@ h5 {
 
 .button_link:hover {
     opacity: 0.5;
-}
-
-.small_link,
-.med_link  {
-    color: white;
-    display: inline-block;
-}
-
-.small_link {
-    font-size: 14px;
-    margin-top: 16px;
-}
-
-.med_link {
-    margin-top: 28px;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    padding: 10px 36px;
-    margin-top: 65px;
-    background-color: rgba(0,0,0,0.5);
-}
-
-footer #footer_image_container{
-    width: 250px;
-}
-
-footer img {
-    width: 100%;
-}
-
-.clear_button {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    border: 3px solid white;
-    padding: 12px 24px;
-    border-radius: 4px;
-    transition: 
-        background-color 0.5,
-        color 0.5;
-}
-
-.clear_button:hover {
-    background-color: white;
-    color:black
-}
-
-.tiny_link {
-    display: block;
-    color: white;
-    font-size: 10px;
-    text-align: center;
-    margin-top: 4px;
-}
-
-#footer_center {
-    margin: 0px 24px;
-    flex: 1;
-}
-
-#footer_center p {
-    color: white;
-    font-size: 20px;
-}
+} */
 
 
-section#cards {
-    text-align: center;
-    margin-top: 90px;
-}
-section#cards h2,
-section#cards p,
-section#cards h4,
-section#cards h6 {
-    color: white;
-}
-section#cards  h2 {
-    font-size: 48px;
-    margin-top: 0px;
-}
-section#cards p {
-    width: 700px;
-    margin: 0px auto;
-}
-
-#cards_container {
-    display: grid;
-    grid-template-columns: repeat(4, 295px);
-    grid-template-rows: 450px;
-    grid-gap: 24px;
-    width: 1252px;
-    margin: 50px auto;
-    text-align: left;
-}
-
-#cards_container div {
-    padding-left: 24px;
-}
-
-#cards_container h6 {
-    font-weight: normal;
-}
-
-#cards_container h4 {
-    margin-bottom: 12px;
-}
 
 
-#bobs_burgers {
-    background-image: url(../images/bobsburgers.jpeg);
-    background-size: contain;
-}
 
-#prey {
-    background-image: url(../images/prey.jpeg);
-    background-size: contain;
-}
-
-#handmaids_tale {
-    background-image: url(../images/handmaidstale.jpeg);
-    background-size: contain;
-}
-
-#dargon {
-    background-image: url(../images/houseofdragon.jpeg);
-    background-size: contain;
-}
-
-
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .button_link {
         width: 80%;
     }
@@ -287,4 +159,4 @@ section#cards p {
     #card_container h4 {
         font-weight: normal;
     }
-} */
+}  */
